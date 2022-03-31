@@ -41,12 +41,12 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return  "Nome: " + nome + " | " +
+        return "Nome: " + nome + " | " +
                 "Data de nascimento: " + dataNascimento + " | " +
                 "Altura: " + altura;
     }
 
-    public int calcularIdade(){
+    public int calcularIdade() {
         LocalDate hoje = LocalDate.now();
         Period idadeAtual = Period.between(this.getDataNascimento(), hoje);
         return idadeAtual.getYears();
