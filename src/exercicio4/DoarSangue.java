@@ -11,9 +11,9 @@ public class DoarSangue {
         System.out.println("Informe sua idade: ");
         int idade = sc.nextInt();
 
-        if (idade >= 18 && idade <= 67){
+        if (idade >= 18 && idade <= 67) {
             System.out.println("Parabéns! Você pode ser um doador de sangue!");
-        }else {
+        } else {
             System.out.println("Sinto muito, mas você não poderá doar.");
         }
 
