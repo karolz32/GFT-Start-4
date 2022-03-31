@@ -28,5 +28,7 @@ public class Mensagem {
                 break;
         }
 
+        sc.close();
+
     }
 }
